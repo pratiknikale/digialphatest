@@ -1,0 +1,87 @@
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.class-box {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #80808030;
+    box-shadow: 0px 5px 10px 0px #00000021;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.class-box-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.form-input input {
+    display: block;
+    margin: 10px 0 0;
+    padding: 10px;
+}
+
+.form-input small {
+    color: red;
+}
+
+.add-class-button,
+.add-student-button,
+.submit-btn {
+    text-align: end;
+}
+
+.add-class-button button,
+.add-student-button button,
+.submit-btn button {
+    padding: 10px 15px;
+    background-color: skyblue;
+    border: none;
+    cursor: pointer;
+}
+
+.add-student-button {
+    padding-bottom: 0;
+}
+
+.add-student-button button {
+    background-color: white;
+    border: 1px solid skyblue;
+    margin-top: 5px;
+}
+
+.submit-btn button {
+    padding: 15px 50px;
+    font-size: 18px;
+}
+
+.form-input-radio {
+    display: flex;
+    align-items: baseline;
+    margin-right: 10px;
+}
+
+.form-input-radio label {
+    margin-left: 5px;
+}
+
+.radio-input {
+    display: flex;
+    padding: 10px 0;
+}
+
+.student-box {
+    border-top: 1px solid #80808038;
+}
+
+.student-box:nth-of-type(1) {
+    border: none;
+}
+
+p {
+    font-size: 18px;
+}
